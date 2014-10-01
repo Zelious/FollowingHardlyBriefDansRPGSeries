@@ -3,10 +3,9 @@ using System.Collections;
 
 public class BaseMageClass : BaseCharacterClass 
 {
-    
-	public void MageClass()
+    // Constructor
+	public BaseMageClass()
 	{
-		// newcharacter.class = "Class here"
 
 		CharacterClassName = "Mage";
 		CharacterClassDescription = "A wise wizard";

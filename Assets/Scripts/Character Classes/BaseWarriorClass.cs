@@ -5,8 +5,8 @@ public class BaseWarriorClass : BaseCharacterClass
 {
 
 
-
-    public void WarriorClass()
+	// Constructor
+    public BaseWarriorClass()
 	{
 		CharacterClassName = "Warrior";
 		CharacterClassDescription = "Krog Smash!";
